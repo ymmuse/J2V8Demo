@@ -25,7 +25,7 @@ include $(PREBUILT_STATIC_LIBRARY)
 
 
 include $(CLEAR_VARS)
-LOCAL_MODULE    := j2v8_android_armv7l
+LOCAL_MODULE    := j2v8_android
 LOCAL_SRC_FILES := com_eclipsesource_v8_V8Impl.cpp
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../third_party/v8/include $(LOCAL_PATH)/../third_party/v8/
 
